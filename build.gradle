@@ -20,7 +20,8 @@ dependencies {
             "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
             "org.springframework.boot:spring-boot-starter-undertow",
             "com.fasterxml.jackson.module:jackson-module-kotlin",
-            "org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.8.RELEASE"
+            "org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.8.RELEASE",
+            "org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:2.2.8.RELEASE"
 
     )
 
