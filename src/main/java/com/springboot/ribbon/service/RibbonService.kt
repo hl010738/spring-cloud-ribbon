@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service
 
 interface RibbonService {
 
-    fun info(): String?
+    fun info(): String
 
-    fun errorHandler(): String?
+    fun errorHandler(): String
 }

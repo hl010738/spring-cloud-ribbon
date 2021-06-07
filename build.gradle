@@ -19,7 +19,9 @@ dependencies {
             "org.springframework.boot:spring-boot-starter-actuator",
             "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
             "org.springframework.boot:spring-boot-starter-undertow",
-            "com.fasterxml.jackson.module:jackson-module-kotlin"
+            "com.fasterxml.jackson.module:jackson-module-kotlin",
+            "org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.8.RELEASE"
+
     )
 
     configurations {
