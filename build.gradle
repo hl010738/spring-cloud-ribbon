@@ -18,7 +18,8 @@ dependencies {
             "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:3.0.3",
             "org.springframework.boot:spring-boot-starter-actuator",
             "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
-            "org.springframework.boot:spring-boot-starter-undertow"
+            "org.springframework.boot:spring-boot-starter-undertow",
+            "com.fasterxml.jackson.module:jackson-module-kotlin"
     )
 
     configurations {
