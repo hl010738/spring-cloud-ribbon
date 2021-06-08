@@ -10,6 +10,10 @@ eureka:
     fetchRegistry: true
     service-url:
       defaultZone: http://localhost:10097/eureka/
+  instance:
+    instance-id: eureka-ribbon-client
+    appname: ${spring.application.name}
+    #prefer-ip-address: true
 
 # 如果 hystrix dashboard 出现 hystrix Unable to connect to Command Metric Stream.
 # 并且在 console中出现 if it should be allowed to add it to hystrix.dashboard.proxyStreamAllowList
